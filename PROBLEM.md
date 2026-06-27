@@ -16,7 +16,7 @@ while adhering to the platform's constraints.
 
 3. Subsequent Viewings
    - Every later viewing of video i costs only repeatWatch[i] minutes.
-   - [118;1:3uAny already-watched video can be rewatched at any time.
+   - Any already-watched video can be rewatched at any time.
 
 4. Minimum Total Watch Count
    - The learner must reach at least m total viewings across all videos.
