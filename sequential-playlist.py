@@ -2,6 +2,10 @@
 def findMinMinutes
 Return the minimum time to reach m total viewings in a sequential playlist of n videos.
     Parameters:
+            m: Total number of viewings to complete.
+            firstWatch: Minutes to watch each video the first time.
+            repeatWatch: Minutes to rewatch each video.
+    Variables:
             minimumTime: To store the current lowest total time
             firstWatchSubset = To store a subset of firstWatch, from initial position to current loop iteration position (from position 0 until m).
             repeatWatchSubset = To store a subset of repeatWatch, from initial position to current loop iteration position (from position 0 until m).
@@ -9,7 +13,7 @@ Return the minimum time to reach m total viewings in a sequential playlist of n 
             minRepeatWatchTimes = To store the remaining times that we need to multiply the minRepeatWatchValue.
             cycleTime = To store algorithm logic, to validate possible new lowest time per cycle. 
     Returns:
-            minimumTime: Lowest total watch time
+            minimumTime: The minimum minutes required to reach m viewings
 '''
 def findMinMinutes(m, firstWatch, repeatWatch):
     minimumTime = float('inf')
