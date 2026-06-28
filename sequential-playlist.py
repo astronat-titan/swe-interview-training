@@ -28,7 +28,7 @@ def findMinMinutes(m, firstWatch, repeatWatch):
         if cycleTime < minimumTime:
             minimumTime = cycleTime
             
-        print(f"Ciclo #{i}: firstWatchSubset: {firstWatchSubset}, repeatWatchSubset: {repeatWatchSubset}, minRepeatWatchValue: {minRepeatWatchValue}, minRepeatWatchTimes: {(m - (i - 1))}, cycleTime: {cycleTime}, minimumTime: {minimumTime}.")
+        print(f"Ciclo #{i}: firstWatchSubset: {firstWatchSubset}, repeatWatchSubset: {repeatWatchSubset}, minRepeatWatchValue: {minRepeatWatchValue}, minRepeatWatchTimes: {(m - (i + 1))}, cycleTime: {cycleTime}, minimumTime: {minimumTime}.")
             
     return minimumTime
 
